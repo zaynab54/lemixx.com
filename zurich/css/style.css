@@ -1,0 +1,710 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+/*first nav*/ 
+
+.firstNav{
+    background-color: rgb(247, 80, 80);
+    display: flex;
+    height: 50px;
+    font-weight: 500;
+    font-size: small;
+}
+
+.listone ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    font-weight: 500;
+    font-size: small;
+}
+ul li{
+    display: inline-block;
+    padding: 5px;
+    font-weight: 500;
+    font-size: small;
+}
+.listone{
+    position: left;
+    margin-left: 90px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-weight: 500;
+    font-size: small;
+}
+.listone i{
+    color: yellow;
+    padding: -5px;
+    font-size: 15px;
+    font-weight: 500;
+    font-size: small;
+}
+
+.secondlist{
+    margin-left: 600px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 500;
+    font-size: small;
+}
+
+.secondlist i{
+    color: white;
+    padding: 5px;
+    font-size:15px;
+    font-weight: 500;
+    font-size: small;
+}
+/*end first nav*/
+
+/*second nav*/
+.image img {
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+
+}
+
+.secondNav{
+    display: flex;
+    background-color: rgb(243, 241, 241);
+    font-weight: 500;
+    font-size: small;
+}
+.secondNavbar ul {
+    list-style-type: none;
+    display: inline-block;
+    font-weight: 500;
+    font-size: small;
+}
+.contactuslist {
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 500;
+    font-size: small;
+}
+
+.contactuslist li i{
+    color:  rgb(247, 80, 80);
+    font-size: 75px;
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+.contactuslist li {
+     padding: 10px;
+     font-weight: 500;
+    font-size: small;
+}
+
+.block { 
+    display: block;
+    margin: 10px;font-weight: 500;
+    font-size: small;
+}
+h6{
+    margin: 10px;
+    color: black;
+    font-weight: 500;
+    font-size: small;
+}
+.inline{
+    display: flex;
+}
+.block div{
+    color: rgb(202, 199, 199);
+    font-weight: 500;
+    font-size: small;
+}
+.block div a {
+    text-decoration: none;
+    color: rgb(202, 199, 199);
+}
+.block h6 a{
+    text-decoration: none;
+    color: black;
+}
+.block div a:hover {
+    cursor: pointer;
+}
+.block h6 a:hover{
+    cursor: pointer;
+}
+/*end second nav*/
+
+/*third nav bar*/
+.thirdnav{
+    background-color: white;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 5000;
+    font-weight: 500;
+    font-size: small;
+}
+
+.one{
+    display: flex;
+    text-decoration: none;
+    margin-left: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: black;
+    font-weight: 500;
+    font-size: small;
+}
+
+.one li{
+    padding: 0px;
+    font-weight: 500;
+    font-size: small;
+}
+
+.thirdnav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px ;
+    transition: all 1s;
+    font-weight: 1000;
+    font-size: x-small;   
+}
+
+.thirdnav ul li a:hover{
+    background-color:  rgb(247, 80, 80);
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: small;
+}
+
+.sub-menu-1{
+    display: none;
+}
+
+.thirdnav ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: -15px;
+    font-weight: 500;
+    font-size: small;
+}
+
+.thirdnav ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin:10px;
+}
+
+.thirdnav ul li:hover .sub-menu-1 ul li{
+    display: block;
+    width: 150;
+    padding: 10px;
+    background: transparent;
+    text-align: left;
+    color: rgb(202, 199, 199) ;
+    font-weight: 500;
+    font-size: small;
+}
+
+.thirdnav ul li:hover .sub-menu-1 ul li a:hover{
+    background-color:  rgb(247, 80, 80);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: small;
+}
+
+.thirdnav div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 200px;
+    font-weight: 500;
+    font-size: small;
+}
+
+.thirdnav div button{
+    border-radius: 5px;
+    background-color:  rgb(247, 80, 80);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-color:  rgb(247, 80, 80);
+    font-weight: 500;
+    font-size: small;
+}
+
+.sub-menu-2{
+    display: none;
+}
+
+.thirdnav ul li:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: -15px;
+    font-weight: 500;
+    font-size: small;
+}
+
+.thirdnav ul li:hover .sub-menu-2 ul{
+    display: block;
+    margin:10px;
+}
+
+.thirdnav ul li:hover .sub-menu-2 ul li{
+    display: block;
+    width: 150;
+    padding: 10px;
+    background: transparent;
+    text-align: left;
+    color: rgb(202, 199, 199) ;
+    font-weight: 500;
+    font-size: small;
+}
+
+.thirdnav ul li:hover .sub-menu-2 ul li a:hover{
+    background-color:  rgb(247, 80, 80);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: small;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+/*slider*/
+
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    background-color: #bbb;
+    font-weight: 500;
+    font-size: small;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dotcontainer{
+         margin-top: -50px;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0px 2px;
+    background-color:  rgb(247, 80, 80);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    border: 5px solid #bbb;
+    height: 25px;
+    width: 25px;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  .why {
+    margin: 150px 50px;
+  }
+  em {
+    color:  rgb(247, 80, 80);
+  }
+
+.firstcard, .secondcard, .thirdcard{
+    width: 300px;
+    height: 350px;
+    margin: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    float: left;
+    padding: 0 px;
+    
+}
+.firstcard img{
+    width: 100%;
+}
+.secondcard img{
+    width: 100%;
+}
+.thirdcard img{
+    width: 100%;
+}
+.cards{
+    margin: 0 -5px;
+}
+
+.cards:after{
+    content: "";
+  display: table;
+  clear: both;
+}
+
+.hid{
+    display: none;
+}
+
+.firstcard:hover .hid{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color:  rgb(247, 80, 80);
+    opacity: 0.6;
+    display: block;
+    margin-top: -300px;
+    
+}
+
+.firstcard:hover .title{
+    display: none;
+}
+
+
+.secondcard:hover .hid{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color:  rgb(247, 80, 80);
+    opacity: 0.6;
+    display: block;
+    margin-top: -300px;
+    
+}
+
+.secondcard:hover .title{
+    display: none;
+}
+
+
+.thirdcard:hover .hid{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color:  rgb(247, 80, 80);
+    opacity: 0.6;
+    display: block;
+    margin-top: -300px;
+    
+}
+
+.thirdcard:hover .title{
+    display: none;
+}
+
+.when{
+    margin: 50px;
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px;
+    
+}
+
+.icon11 , .icon22 , .icon33{
+    float: left;
+    width: 33.33%;
+}
+.icons1:after{
+    content: "";
+  display: table;
+  clear: both;
+}
+.icons1{
+    margin: 50px;
+}
+
+.icon11 i{
+     font-size: 100px; 
+     margin: 25%;
+}
+
+.icon22 i{
+    font-size: 100px;
+    margin: 25%;
+}
+
+.icon33 i{
+    font-size: 100px;
+    margin: 25%;
+}
+
+.footer{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(48, 34, 34);
+    color: white;
+    display: flex;
+}
+
+
+.right{
+   margin-left: 100px;
+}
+
+.left{
+    margin-right: 800px;
+}
+
+.background{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+}
+
+.background img{
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+
+}
+
+.content{
+    position: absolute;
+    top: 35%;
+    bottom: 50%;
+     color: rgb(250, 214, 8);
+    z-index: 5000;
+}
+.content h1{
+    margin-bottom: 10px;
+}
+.content a{
+      margin-left: 25px;
+      text-decoration: none;
+      color: white;
+}
+
+.text{
+    margin: 50px;
+    padding: 10px;
+    border-radius: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgb(182, 181, 181);
+}
+
+.location{
+    margin: 50px;
+    display: flex;
+}
+
+.map p{
+    margin: 20px;
+}
+
+
+.discusing{
+    position: right;
+    margin: 30px;
+}
+input{
+    width: 190px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+#spcl{
+    width: 410px;
+}
+
+.form button{
+    padding: 10px;
+    color: black;
+    background-color: white; 
+}
+
+.buttons{
+    margin-left: 12px;
+}
+
+.buttons button{
+    border-width: 1px;
+    background-color:  rgb(247, 80, 80);
+    color: white;
+    border-color: white;
+}
+
+
+.lastdiv{
+    display: flex;
+}
+
+.tobeginwith{
+    border: 2px solid grey;
+    background-color: #f2f2f2;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    height: 543px;
+}
+
+.afterthat{
+    border: 2px solid grey;
+    background-color: #f2f2f2;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    
+}
+.then{
+    border: 2px solid grey;
+    background-color: #f2f2f2;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+.last{
+    border: 2px solid grey;
+    background-color: #f2f2f2;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+.star{
+    text-align: center;
+}
+
+.topic{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.line1{
+    display: flex;
+    margin: 50px;
+}
+.line1 input{
+    width: 350px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #bbb;
+}
+.line2{
+    display: flex;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+.line2 input{
+    width: 350px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #bbb;
+}
+
+.loan{
+    margin-left: 50px;
+}
+
+.loan input{
+    width: 1100px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #bbb;
+}
+
+.two{
+    display: flex;
+    margin-left: 50px;
+}
+
+.two input{
+    width: 550px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #bbb;
+}
+
+.three{
+    display: flex;
+    margin-left: 50px;
+}
+
+.three input{
+    width: 366px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #bbb;
+}
+
+button{
+    background-color: rgb(247, 80, 80);
+    color: black;
+    margin-left: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
